@@ -1,0 +1,114 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+		<meta name="viewport" id="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" type="text/css" href="/css/socialicious.css">
+		<link rel="stylesheet" type="text/css" href="/css/main.css">
+		<link rel="stylesheet" type="text/css" href="/css/monokai.css">
+		<link href="/blog/rss.xml" rel="alternate" type="application/rss+xml" title="Justin Wilkins" />
+		<title>Justin Wilkins</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<script type="text/javascript" src='/js/jquery.min.js'></script>
+		<script type="text/javascript" src='/js/jquery.masonry.min.js'></script>
+		<script type="text/javascript" src='/js/jquery.imagesloaded.min.js'></script>
+		<script type="text/javascript" src='/js/highlight.pack.js'></script>
+		<script type="text/javascript">
+			hljs.initHighlightingOnLoad();
+			function applyTiles() {
+				var posts = $('#posts ul');
+				posts.imagesLoaded(function() {
+					$('#posts ul').masonry({ itemSelector : '.post' });;
+				});
+			}
+			$(function() {
+				applyTiles();
+			});
+			$(window).resize(function() {
+				applyTiles();
+			});
+		</script>
+		<style type="text/css">
+		</style>
+	</head>
+	<body>
+		<div id='layout'>
+			<div id='heading'>
+	<div id='logo'>
+		<a href='http://localhost:4000'>Justin</a>
+		<a href='http://localhost:4000' id='logo_docs'>Wilkins</a>
+</div>
+</div>
+<section id="home-hero"></section>
+
+			<div style='clear: both'></div>
+		</div>
+		<div id='content' class="hp bouceUpIn animated">
+			<div id='posts' class="leftblock">
+				<ul>
+					
+						<li class='post'>
+							
+								<a href='/blog/2015/12/27/post6.html'><img class='post-image' src="/images/blog/me.jpg" /></a>
+							
+							<div class="postcontent">
+					<a href='/blog/2015/12/27/post6.html'><h1 class='post-title'>About me</h1></a>
+
+								<div class='post-content'>About me.</div>
+							</div>
+						</li>
+					
+						<li class='post'>
+							
+								<a href='/blog/2015/12/26/post5.html'><img class='post-image' src="/images/blog/post5.jpg" /></a>
+							
+							<div class="postcontent">
+					<a href='/blog/2015/12/26/post5.html'><h1 class='post-title'>Projects</h1></a>
+
+								<div class='post-content'>Projects that I have completed.</div>
+							</div>
+						</li>
+					
+						<li class='post'>
+							
+								<a href='/blog/2015/12/25/post4.html'><img class='post-image' src="/images/blog/post-pre.jpg" /></a>
+							
+							<div class="postcontent">
+					<a href='/blog/2015/12/25/post4.html'><h1 class='post-title'>Education/Experience</h1></a>
+
+								<div class='post-content'>My Education and Experience.</div>
+							</div>
+						</li>
+					
+				</ul>
+			</div>
+			<div class="rightblock fadeInDown animated">
+				<b>What is this all about</b>
+<p>
+  This is my website, what you can find here is anything you want to know about me, including projects I've completed and have been apart of, experience, ect.
+</p>
+
+			</div>
+			<div style='clear:both'></div>
+		</div>
+		<div id='footer'>
+			<a href="https://www.linkedin.com/in/justin-wilkins-783975159/">
+ 	 			<i class="icon-2x icon-linkedin"></i>
+			</a>
+			
+			<a href="https://twitter.com/JwilksBooth">
+  				<i class="icon-2x icon-twitter"></i>
+			</a>
+			<a href="https://www.facebook.com/profile.php?id=100005478049286">
+  				<i class="icon-2x icon-facebook"></i>
+			</a>
+			
+			<a href="https://www.instagram.com/justin_wilkins1/">
+ 				<i class="icon-2x icon-instagram-sign"></i>
+			</a>
+			
+			<a href="https://github.com/JustinWilkins">
+ 				<i class="icon-2x icon-github-sign"></i>
+			</a>
+		</div>
+	</div>
+</body>
+</html>
