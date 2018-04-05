@@ -1,0 +1,18 @@
+
+baseurl: "https://bjjohnston.github.io/Jwilks"
+url: "https://bjjohnston.github.io/Jwilks"
+full_name: "Justin Wilkins"
+first_name: "Justin"
+last_name: "Wilkins"
+blog_title: "Justin Wilkins"
+author_img_name_path: "/images/users/user.jpg"
+disqus_shortname: "example"
+copyright_year: "2018"
+google_analytics_code: ""
+aboutme: "Test"
+
+#Social links:
+linkedin: "https://linkedin.com"
+facebook: "https://facebook.com"
+twitter: "https://twitter.com"
+instagram: "https://instagram.com"
